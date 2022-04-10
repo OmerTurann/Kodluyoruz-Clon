@@ -1,0 +1,229 @@
+/************HEADER KISMI*************/
+.header{
+    width: 1350px;
+    height: 78px;
+    background-color: #fff;
+}
+.logo{
+    width: 193px;
+    height: 40px;
+}
+.img-height{
+    height: 78px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inblck{
+    display: flex;
+    align-items: center;
+}
+.nav-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inblck li{
+    list-style-type: none;
+    margin-left: 1em;
+
+    
+}
+.inblck li a{
+    font-size: 0.875rem;
+    color: rgb(134, 133, 133);
+    text-decoration: none;
+    font-weight:600;
+}
+.sup{
+    font-size: 12px;
+    height: 46px;
+    width: 88px;
+    background-color: #FB923C;
+    color: white;
+    border-radius: 30px;
+    border: none;
+}
+.head div{
+    display: inline-block;
+}
+.tr-flag{
+    color: rgb(134, 133, 133);
+    margin-left: 0.2em;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+.donate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/************ ÜST KISIM ***************/
+
+.student-img{
+    width: 100%;
+    background-color: black;
+    position: relative;
+    height: auto;
+    background-image: linear-gradient(red, yellow);
+
+    
+}
+.gradyn{
+    background: linear-gradient(90deg,rgba(45,156,219,.6),rgba(155,81,224,.6));
+    z-index: 1;
+}
+   
+
+
+.imgon-text{
+    position: absolute;
+    color: white;
+    font-size : 3.75em;
+    margin-top: 600px;
+    margin-left: 80px;
+    font-weight: bold;
+}
+.imgon2-text{
+    position: absolute;
+    color: white;
+    font-size : 1.25em;
+    margin-top: 680px;
+    margin-left: 280px;
+    font-weight: bold;
+}
+.basvur{
+    position: absolute;
+    background-color: #FB923C;
+    color: white;
+    margin-top: 760px;
+    margin-left: 600px;
+    border-radius:30px;
+    height: 62px;
+    width: 150px;
+    border: none;
+    
+}
+.buttonrdyn{
+    background: linear-gradient(90deg,rgba(45,156,219,.6),rgba(155,81,224,.6));
+    border-radius: 30px;
+    border: none;
+    height: 48px;
+    color: white;
+}
+
+
+
+/****************** Açık Kaynaklar **********/
+
+.open-source{
+    width: 100%;
+    height: 304px;
+    background: linear-gradient(90deg,rgba(45,156,219,.6),rgba(155,81,224,.6));
+    margin-top: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-prepare{
+    background-color: #FB923C;
+    color: white;
+    height: 48px;
+    border: none;
+    border-radius: 30px;
+    margin-left: 365px;
+    padding: 0px 30px;
+}
+.box{
+    background-color:rgb(255, 255, 255);
+    text-align: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+.quality{
+    height: 320px;
+    background-color:#F5F5F5;
+    display: flex;
+    align-items: center;
+}
+
+/************ HAYATI DEĞİŞENLER **********/
+
+.change-life{
+    width: 100%;
+    height: 504px;
+    background: linear-gradient(90deg,rgba(45,156,219,.6),rgba(155,81,224,.6));
+    margin-top: 5em;
+    display: flex;
+    align-items: center;
+
+}
+
+.change-life-title{
+    color: white;
+    text-align: center;
+    font-weight: 600;
+}
+.video-move{
+    display: flex;
+    justify-content: center;
+}
+/****************sponsors-tanıtım*******************/
+.sponsors-tanıtım{
+    height: 474px;
+    background-color:#F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.center-img{
+    text-align: center;
+    position: relative;
+    margin-right: 100px;
+}
+/**************** PODCAST *******************/
+.podcast{
+    height: 328px;
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: center;
+    text-align: center ;
+
+}
+.misyon{
+    background:linear-gradient(90deg,rgba(45,156,219,.6),rgba(155,81,224,.6)) ;
+    text-align: center;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+/**************** FOOTER *******************/
+.footer{
+    margin-left: 8em;
+    margin-right: 8em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+
+}
+.footerr{
+    background-color: #F5F5F5;
+
+}
+.footer li{
+    list-style-type: none;
+    line-height: 1.5em;
+
+}
+.icons{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+}
+.icons i{
+    margin-left: 1em;
+}
